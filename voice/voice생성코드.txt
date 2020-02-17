@@ -1,0 +1,6 @@
+curl -v -X POST "https://kakaoi-newtone-openapi.kakao.com/v1/synthesize" \
+-H "Content-Type: application/xml" \
+-H "Authorization: KakaoAK e6bbdc1ae844de0c529c5a68f143e0e7" \
+-d '<speak>
+자세가 좋지 않아요
+</speak>' > bent.mp3
